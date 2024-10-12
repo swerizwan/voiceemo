@@ -1,16 +1,38 @@
-# Voice-Driven 3D Facial Emotion Recognition For Mental Health Monitoring
+# Voice-Driven Emotion Separation for 3D Facial Expression using an Emotion-Separating Encoder
 
 <img src="https://camo.githubusercontent.com/2722992d519a722218f896d5f5231d49f337aaff4514e78bd59ac935334e916a/68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67" alt="Oryx Video-ChatGPT" data-canonical-src="https://i.imgur.com/waxVImv.png" style="max-width: 100%;">
 
 ## Overview
 
-Vocal expressions are significant indicators of emotional states, crucial for mental health monitoring. However, existing methods often struggle to accurately separate the emotions and contents conveyed through speech alone. Our solution introduces a neural network that effectively disentangles various emotions from voice signals, enabling the generation of precise 3D facial expressions.
+Our paper introduces a novel voice-driven 3D facial expression system that adeptly separates emotional cues from vocal content, generating distinct facial animations for various emotional states. Through the use of an emotion-separating encoder and a voice-to-face morph synthesizer, we enhance emotional expression in virtual characters, with significant improvements over existing methods as validated by experiments on multiple datasets. This advancement has broad applications in education, marketing, healthcare, and entertainment, enriching user experiences through more emotionally resonant virtual interactions.
 
 # 👁️💬 Architecture
 
-The proposed model undertakes the task of separating the emotional and content aspects inherent in the voice data of a patient utilizing two embedding spaces from a given voice input. These extracted features from the embedding spaces are combined and subsequently passed through the voice-to-face morph synthesizer. This morph synthesizer then produces morph coefficients enhanced with emotional cues. These coefficients serve as valuable inputs to dense layers for emotion classification. The model will provide feedback to the doctor in 3D facial expressions.
+The proposed model undertakes the task of separating the emotional and content aspects inherent in the voice data of a patient utilizing two embedding spaces from a given voice input. These extracted features from the embedding spaces are combined and subsequently passed through the voice-to-face morph synthesizer. This morph synthesizer then produces morph coefficients enhanced with emotional cues. These coefficients serve as valuable inputs to dense layers for emotion classification.
 
 <img style="max-width: 100%;" src="https://github.com/swerizwan/verhm/blob/main/resources/architecture.png" alt="VERHM Overview">
+
+# Demo
+
+```
+python3 run_demo.py --input_voice "./newinput/angry.wav"
+```
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <div style="text-align: center;">
+        <p>Frustrated</p>
+        <img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/image1.gif" alt="Image 1">
+    </div>
+    <div style="text-align: center;">
+        <p>Sad</p>
+        <img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/image2.gif" alt="Image 2">
+    </div>
+    <div style="text-align: center;">
+        <p>Angry</p>
+        <img style="max-width: 100%;" src="https://github.com/swerizwan/PMRR/blob/main/resources/image3.gif" alt="Image 3">
+    </div>
+</div>
+
 
 ## Installation
 
