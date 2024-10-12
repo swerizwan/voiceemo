@@ -10,7 +10,7 @@ Our paper introduces a novel voice-driven 3D facial expression system that adept
 
 The proposed model undertakes the task of separating the emotional and content aspects inherent in the voice data of a patient utilizing two embedding spaces from a given voice input. These extracted features from the embedding spaces are combined and subsequently passed through the voice-to-face morph synthesizer. This morph synthesizer then produces morph coefficients enhanced with emotional cues. These coefficients serve as valuable inputs to dense layers for emotion classification.
 
-<img style="max-width: 100%;" src="https://github.com/swerizwan/verhm/blob/main/resources/overview.png" alt="VERHM Overview">
+<img style="max-width: 100%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/overview.png" alt="VERHM Overview">
 
 # Demo
 
@@ -18,7 +18,7 @@ The proposed model undertakes the task of separating the emotional and content a
 python3 run_demo.py --input_voice "./newinput/angry.wav"
 ```
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; justify-content: center; gap: 1px; flex-wrap: wrap;">
     <div style="text-align: center;">
         <p>Frustrated</p>
         <img style="width: 20%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image1.gif" alt="Frustrated">
