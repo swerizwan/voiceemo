@@ -19,17 +19,17 @@ python3 run_demo.py --input_voice "./newinput/angry.wav"
 ```
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <div style="text-align: center; width: 30%;">
+    <div style="text-align: center;">
         <p>Frustrated</p>
-        <img style="width: 100%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image1.gif" alt="Frustrated">
+        <img style="width: 30%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image1.gif" alt="Frustrated">
     </div>
-    <div style="text-align: center; width: 30%;">
+    <div style="text-align: center;">
         <p>Sad</p>
-        <img style="width: 100%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image2.gif" alt="Sad">
+        <img style="width: 30%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image2.gif" alt="Sad">
     </div>
-    <div style="text-align: center; width: 30%;">
+    <div style="text-align: center;">
         <p>Angry</p>
-        <img style="width: 100%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image3.gif" alt="Angry">
+        <img style="width: 30%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image3.gif" alt="Angry">
     </div>
 </div>
 
