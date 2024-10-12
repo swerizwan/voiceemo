@@ -18,20 +18,22 @@ The proposed model undertakes the task of separating the emotional and content a
 python3 run_demo.py --input_voice "./newinput/angry.wav"
 ```
 
-<div style="display: flex; justify-content: center; gap: 1px; flex-wrap: wrap;">
-    <div style="text-align: center;">
-        <p>Frustrated</p>
-        <img style="width: 20%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image1.gif" alt="Frustrated">
-    </div>
-    <div style="text-align: center;">
-        <p>Sad</p>
-        <img style="width: 20%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image2.gif" alt="Sad">
-    </div>
-    <div style="text-align: center;">
-        <p>Angry</p>
-        <img style="width: 20%;" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image3.gif" alt="Angry">
-    </div>
-</div>
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <p>Frustrated</p>
+      <img width="150" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image1.gif" alt="Frustrated">
+    </td>
+    <td style="text-align: center;">
+      <p>Sad</p>
+      <img width="150" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image2.gif" alt="Sad">
+    </td>
+    <td style="text-align: center;">
+      <p>Angry</p>
+      <img width="150" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image3.gif" alt="Angry">
+    </td>
+  </tr>
+</table>
 
 ## Installation
 
