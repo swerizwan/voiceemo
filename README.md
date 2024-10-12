@@ -22,23 +22,23 @@ python3 run_demo.py --input_voice "./newinput/angry.wav"
   <tr>
     <td style="text-align: center;">
       <p>Happy</p>
-      <img width="140" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image4.gif" alt="Happy">
+      <img width="137" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image4.gif" alt="Happy">
     </td>
     <td style="text-align: center;">
       <p>Frustrated</p>
-      <img width="140" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image1.gif" alt="Frustrated">
+      <img width="137" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image1.gif" alt="Frustrated">
     </td>
     <td style="text-align: center;">
       <p>Sad</p>
-      <img width="140" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image2.gif" alt="Sad">
+      <img width="137" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image2.gif" alt="Sad">
     </td>
     <td style="text-align: center;">
       <p>Angry</p>
-      <img width="140" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image3.gif" alt="Angry">
+      <img width="137" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image3.gif" alt="Angry">
     </td>
     <td style="text-align: center;">
       <p>Surprise</p>
-      <img width="140" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image5.gif" alt="Surprise">
+      <img width="137" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image5.gif" alt="Surprise">
     </td>
   </tr>
 </table>
