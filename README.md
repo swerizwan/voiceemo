@@ -21,6 +21,10 @@ python3 run_demo.py --input_voice "./newinput/angry.wav"
 <table>
   <tr>
     <td style="text-align: center;">
+      <p>Happy</p>
+      <img width="150" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image4.gif" alt="Happy">
+    </td>
+    <td style="text-align: center;">
       <p>Frustrated</p>
       <img width="150" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image1.gif" alt="Frustrated">
     </td>
@@ -31,6 +35,10 @@ python3 run_demo.py --input_voice "./newinput/angry.wav"
     <td style="text-align: center;">
       <p>Angry</p>
       <img width="150" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image3.gif" alt="Angry">
+    </td>
+    <td style="text-align: center;">
+      <p>Surprise</p>
+      <img width="150" src="https://github.com/swerizwan/voiceemo/blob/main/resources/image5.gif" alt="Surprise">
     </td>
   </tr>
 </table>
