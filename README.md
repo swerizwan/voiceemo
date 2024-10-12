@@ -10,7 +10,7 @@ Our paper introduces a novel voice-driven 3D facial expression system that adept
 
 The proposed model undertakes the task of separating the emotional and content aspects inherent in the voice data of a patient utilizing two embedding spaces from a given voice input. These extracted features from the embedding spaces are combined and subsequently passed through the voice-to-face morph synthesizer. This morph synthesizer then produces morph coefficients enhanced with emotional cues. These coefficients serve as valuable inputs to dense layers for emotion classification.
 
-<img style="max-width: 100%;" src="https://github.com/swerizwan/verhm/blob/main/resources/architecture.png" alt="VERHM Overview">
+<img style="max-width: 100%;" src="https://github.com/swerizwan/verhm/blob/main/resources/overview.png" alt="VERHM Overview">
 
 # Demo
 
